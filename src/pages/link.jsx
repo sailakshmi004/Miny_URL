@@ -76,11 +76,11 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`https://miny-url-3l.vercel.app//${link}`}
+            href={`https://miny-url-8zyk.vercel.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            https://miny-url-3l.vercel.app//{link}
+            https://miny-url-8zyk.vercel.app/{link}
           </a>
           <a
             href={url?.original_url}
@@ -97,7 +97,7 @@ const LinkPage = () => {
             <Button
               variant="ghost"
               onClick={() =>
-                navigator.clipboard.writeText(`https://miny-url-3l.vercel.app//${link}`)
+                navigator.clipboard.writeText(`https://miny-url-8zyk.vercel.app/${link}`)
               }
             >
               <Copy />
