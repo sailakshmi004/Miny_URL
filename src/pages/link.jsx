@@ -97,7 +97,7 @@ const LinkPage = () => {
             <Button
               variant="ghost"
               onClick={() =>
-                navigator.clipboard.writeText(`https://miny-url-tm11.vercel.app//${link}`)
+                navigator.clipboard.writeText(`https://miny-url-tm11.vercel.app/${link}`)
               }
             >
               <Copy />
